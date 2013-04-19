@@ -12,34 +12,6 @@
         after_draw_border  => "",
     },
 
-    single_shadowrb_utf8 => {
-        summary => 'Single border, bold on bottom right to give illusion of shadow/depth',
-        chars => [
-            ["\x{250c}","─","┬","\x{2512}"],
-            ["│","│","\x{2503}"],
-            ["├","─","┼","\x{2528}"],
-            ["│","│","\x{2503}"],
-            ["├","─","┼","\x{2528}"],
-            ["\x{2515}","\x{2501}","\x{2537}","\x{251b}"],
-        ],
-        before_draw_border => "",
-        after_draw_border  => "",
-    },
-
-    singleo_shadowrb_utf8 => {
-        summary => 'Single outer border, bold on bottom right to give illusion of shadow/depth',
-        chars => [
-            ["\x{250c}","─","─","\x{2512}"],
-            ["│"," ","\x{2503}"],
-            ["│"," "," ","\x{2503}"],
-            ["│"," ","\x{2503}"],
-            ["│"," "," ","\x{2503}"],
-            ["\x{2515}","\x{2501}","\x{2501}","\x{251b}"],
-        ],
-        before_draw_border => "",
-        after_draw_border  => "",
-    },
-
         # double dash
 
         # single dash
