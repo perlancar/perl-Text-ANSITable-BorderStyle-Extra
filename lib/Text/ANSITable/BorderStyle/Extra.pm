@@ -1,29 +1,36 @@
-    hdouble_single_utf8 => {
-        summary => 'Horizontally-double border for header, single border for data',
+package Text::ANSITable::BorderStyle::Extra;
+
+use 5.010001;
+use strict;
+use utf8;
+use warnings;
+
+our %border_styles = (
+
+    hdoubleh_dsingle => {
+        summary => 'Horizontally-double for header, single for data',
         chars => [
-            ["\x{2552}","\x{2550}","\x{2564}","\x{2555}"],
+            ["╒","═","╤","╕"],
             ["│","│","│"],
-            ["\x{255e}","\x{2550}","\x{256a}","\x{2561}"],
+            ["╞","═","╪","╡"],
             ["│","│","│"],
             ["├","─","┼","┤"],
-            ["\x{2514}","─","┴","\x{2518}"],
+            ["└","─","┴","┘"],
         ],
-        before_draw_border => "",
-        after_draw_border  => "",
     },
 
-        # double dash
+    # double dash
 
-        # single dash
+    # single dash
 
-        # heavy dash
+    # heavy dash
 
-        # block, semiblock
+    # block, semiblock
 
-        # shade (2591, 2592)
+    # shade (2591, 2592)
 
-        # dot
+    # dot
 
 );
 
-# ABSTRACT: Some more border styles
+# ABSTRACT: More border styles
