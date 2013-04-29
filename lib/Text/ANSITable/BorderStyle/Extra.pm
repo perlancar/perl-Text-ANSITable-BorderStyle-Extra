@@ -10,7 +10,7 @@ our %border_styles = (
     hdoubleh_dsingle => {
         summary => 'Horizontally-double for header, single for data',
         chars => [
-            ['╒','═','╤','╕'], # 0
+            ['╒','─','┬','┐'], # 0
             ['│','│','│'],     # 1
             ['╞','═','╪','╡'], # 2
             ['│','│','│'],     # 3
