@@ -8,7 +8,7 @@ use warnings;
 
 our %border_styles = (
 
-    demo_custom_border_character => {
+    demo_custom_char => {
         summary => 'Demoes coderef in chars',
         description => <<'_',
 
@@ -17,7 +17,7 @@ Accept arguments C<char> (defaults to C<x>).
 _
         chars => sub {
             my ($self, %args) = @_;
-            $self->{border_style_args}{char} // "x";
+            ($self->{border_style_args}{char} // "x") x ($args{n} // 1);
         },
     },
 
