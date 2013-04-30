@@ -12,18 +12,45 @@ our %border_styles = (
     hdoubleh_dsingle => {
         summary => 'Horizontally-double for header, single for data',
         chars => [
-            ['╒','─','┬','┐'], # 0
+            ['┌','─','┬','┐'], # 0
             ['│','│','│'],     # 1
             ['╞','═','╪','╡'], # 2
             ['│','│','│'],     # 3
             ['├','─','┼','┤'], # 4
             ['└','─','┴','┘'], # 5
         ],
+        utf8 => 1,
+    },
+
+    hboldh_dsingle => {
+        summary => 'Horizontally-bold for header, single for data',
+        chars => [
+            ['┌','─','┬','┐'], # 0
+            ['│','│','│'],     # 1
+            ['┝','━','┿','┥'], # 2
+            ['│','│','│'],     # 3
+            ['├','─','┼','┤'], # 4
+            ['└','─','┴','┘'], # 5
+        ],
+        utf8 => 1,
+    },
+
+    # single dash
+
+    dash3 => {
+        summary => 'Dash 3',
+        chars => [
+            ['┌','┄','┬','┐'], # 0
+            ['┆','┆','┆'],     # 1
+            ['├','┄','┼','┤'], # 2
+            ['┆','┆','┆'],     # 3
+            ['├','┄','┼','┤'], # 4
+            ['└','┄','┴','┘'], # 5
+        ],
+        utf8 => 1,
     },
 
     # double dash
-
-    # single dash
 
     # heavy dash
 
