@@ -4,9 +4,9 @@ Revision history for Text-ANSITable-BorderStyle-Extra
 
         - Add module: Demo.
 
-        - Add border styles: demo_custom_char, hboldh_dsingle, dash2, dash3.
+        - Add styles: demo_custom_char, hboldh_dsingle, dash2, dash3.
 
-        - Tweak border hdoubleh_dsingle: only line between header and first data
+        - Tweak style hdoubleh_dsingle: only line between header and first data
           row is doubled.
 
 
