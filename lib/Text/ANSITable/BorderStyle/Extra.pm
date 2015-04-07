@@ -73,6 +73,18 @@ our %border_styles = (
 
     # dot
 
+    scream_ascii => {
+        summary => 'Spiky speech balloon',
+        chars => [
+            ['<','^','^','>'], # 0
+            ['<','|','|'],     # 1
+            ['<','-','+','>'], # 2
+            ['<','|','|'],     # 3
+            ['<','─','+','>'], # 4
+            ['<','v','v','>'], # 5
+        ],
+    },
+
 );
 
 # ABSTRACT: More border styles
